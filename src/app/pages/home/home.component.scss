@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Outfit&display=swap");
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 100px;
+
+  .text {
+    max-width: 425px;
+
+    .proyect-title {
+      margin-bottom: 25px;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .long-text {
+      font-size: 1em;
+    }
+  }
+
+  .cube-canvas {
+    margin-left: 50px;
+    width: 350px;
+    height: 500px;
+  }
+}
