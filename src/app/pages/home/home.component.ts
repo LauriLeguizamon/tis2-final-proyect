@@ -91,7 +91,7 @@ export class HomeComponent implements OnInit {
       this.render();
     });
 
-    this.cube.rotation.x += 0.01;
+    this.cube.rotation.x += 0.02;
     this.cube.rotation.y += 0.01;
     this.renderer.render(this.scene, this.camera);
   }

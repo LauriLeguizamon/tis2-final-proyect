@@ -1,32 +1,61 @@
-<header class="container">
-  <nav class="custom-navbar">
-    <h1 class="m-2">Laureano Leguizamon</h1>
-    <div class="buttons">
-      <a class="custom-link" routerLink="home" routerLinkActive="active-link"
-        >Home</a
-      >
-      <a
-        class="custom-link"
-        routerLink="habilidades"
-        routerLinkActive="active-link"
-        >Habilidades</a
-      >
-      <a
-        class="custom-link"
-        routerLink="intereses"
-        routerLinkActive="active-link"
-        >Intereses</a
-      >
-      <a
-        class="custom-link"
-        routerLink="personalidad"
-        routerLinkActive="active-link"
-        >Personalidad</a
-      >
-      <a class="custom-link" routerLink="valores" routerLinkActive="active-link"
-        >Valores</a
-      >
+<div class="content">
+  <header class="container">
+    <nav class="custom-navbar">
+      <h1 class="m-2">Laureano Leguizamon</h1>
+      <div class="buttons">
+        <a class="custom-link" routerLink="home" routerLinkActive="active-link"
+          >Home</a
+        >
+        <a
+          class="custom-link"
+          routerLink="habilidades"
+          routerLinkActive="active-link"
+          >Habilidades</a
+        >
+        <a
+          class="custom-link"
+          routerLink="intereses"
+          routerLinkActive="active-link"
+          >Intereses</a
+        >
+        <a
+          class="custom-link"
+          routerLink="personalidad"
+          routerLinkActive="active-link"
+          >Personalidad</a
+        >
+        <a
+          class="custom-link"
+          routerLink="valores"
+          routerLinkActive="active-link"
+          >Valores</a
+        >
+      </div>
+    </nav>
+  </header>
+  <router-outlet></router-outlet>
+</div>
+<footer class="container">
+  <div class="footer-wrapper">
+    <div class="left">
+      <h5>Contacto</h5>
+      <p>laureanoleguizamonmc@gmail.com</p>
+      <a href="https://www.instagram.com/lauri.legui/"
+        ><img src="./../assets/imgs/instagram.png" alt=""
+      /></a>
+      <a href="https://twitter.com/LeguiLaureano"
+        ><img src="./../assets/imgs/twitter.png" alt=""
+      /></a>
+      <a href="https://www.facebook.com/profile.php?id=100009522619106"
+        ><img src="./../assets/imgs/5841491.png" alt=""
+      /></a>
     </div>
-  </nav>
-</header>
-<router-outlet></router-outlet>
+    <div class="right">
+      <h5>Informacion del Proyecto</h5>
+      <p><strong>Materia:</strong> Taller de Interacciones Sociales</p>
+      <p><strong>Docente:</strong> Macarena Lopez Etcheves</p>
+      <p><strong>Colegio</strong> Instituto Carlos Tejedor</p>
+      <p><strong>Curso:</strong> 5to A, Humanidades</p>
+    </div>
+  </div>
+</footer>

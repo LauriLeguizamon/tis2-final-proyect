@@ -58,3 +58,29 @@
     }
   }
 }
+
+.content {
+  min-height: calc(100vh - 200px);
+}
+
+.footer-wrapper {
+  min-height: 160px;
+  width: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.02);
+  display: flex;
+  align-items: space-between;
+  font-family: "Outfit", sans-serif;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 10px;
+
+  img {
+    max-width: 40px;
+    margin: 10px;
+  }
+
+  p {
+    line-height: 0.5;
+  }
+}

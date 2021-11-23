@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Outfit&display=swap");
+.title-container {
+  display: flex;
+  justify-content: center;
+
+  .custom-title {
+    font-family: "Montserrat", sans-serif;
+    margin: 25px;
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
